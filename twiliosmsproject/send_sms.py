@@ -10,8 +10,8 @@ client = Client(account_sid, auth_token)
 
 message = client.messages \
                 .create(
-                     body="Join Earth's mightiest heroes. Like Kevin Bacon.",
-                     from_='+18704510055',
+                     messaging_service_sid = "MG9b15982ed320b20b6cc57c005294a942",
+                     body='body',
                      to='+15734050170'
                  )
 
